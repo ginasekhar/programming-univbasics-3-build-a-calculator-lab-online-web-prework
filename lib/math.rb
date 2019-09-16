@@ -1,6 +1,8 @@
-def valid_numbers(num1, num2)
-  if num1.is_numeric? && num2.validates_numericality_of
-end
+#def valid_numbers(num)
+ # if num.is_numeric? then
+ #  return true 
+  # else return false
+#end
 
 def addition(num1, num2)
   sum = num1 + num2
@@ -22,13 +24,15 @@ def division(num1, num2)
 end
 
 def multiplication(num1, num2)
-  
+  prod = num1 - num2
+  return prod
 end
 
 def modulo(num1, num2)
-
+  mod = num1 - num2
+  return mod
 end
 
 def square_root(num)
-
+  sqr_rt = Math.sqrt(num)
 end
