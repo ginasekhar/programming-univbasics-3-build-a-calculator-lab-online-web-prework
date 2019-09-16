@@ -1,5 +1,5 @@
 def valid_numbers(num1, num2)
-  
+  if num1.is_numeric?
 end
 
 def addition(num1, num2)
